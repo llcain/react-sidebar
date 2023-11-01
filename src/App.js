@@ -10,7 +10,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div className='container'>
       <Sidebar />
       <Routes>
       <Route exact path='/' element={<Home />}></Route>
