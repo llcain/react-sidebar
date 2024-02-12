@@ -6,6 +6,7 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Sidebar from './components/Sidebar';
+import data from "./data/colors.json";
 
 function App() {
   return (
@@ -18,10 +19,23 @@ function App() {
       <Route exact path='/blog' element={<Blog />}></Route>
       <Route exact path='/contact' element={<Contact />}></Route>  
       </Routes>
+      <div>
+      <ul>
+                {data.map((item) => (
+                    <div key={item.id}>
+                        <h1>{item.name}</h1>
+                        <p>{item.age}</p>
+                        <p>{item.color}</p>
+                    </div>
+                ))}
+            </ul>
+      </div>
+      
       
       
       </div>
     </Router>
+    
    
   );
 }
