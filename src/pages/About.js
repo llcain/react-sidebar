@@ -1,6 +1,16 @@
+import Card from "../components/card";
+import data from "../data/colors.json";
+
 const About = () => {
     return ( 
-        <h1>About Page</h1>
+        <div className="about">
+            <h1>About Page</h1>
+            {data.map((item) => {
+                return <Card item={item} />
+            })}
+         <Card />
+        </div>
+        
      );
 }
  
