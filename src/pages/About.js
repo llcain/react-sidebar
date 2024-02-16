@@ -8,7 +8,7 @@ const About = () => {
             {data.map((item) => {
                 return <Card item={item} />
             })}
-         <Card />
+         
         </div>
         
      );

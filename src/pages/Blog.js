@@ -1,6 +1,12 @@
+import React from "react";
+import Header from "../components/Header";
+
 const Blog = () => {
     return ( 
-        <h1>Blog Page</h1>
+        <div>
+             <Header />
+        </div>
+       
      );
 }
  
