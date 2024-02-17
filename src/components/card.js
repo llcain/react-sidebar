@@ -1,11 +1,12 @@
+import React from "react";
 import cloudy from "../images/cloudy.jpg";
-import data from "../data/colors.json";
-const Card = () => {
+
+const Card = (props) => {
     return (
-        <div>
+        <div style={{borer: '2px solid black', margin: '10px', width: '20%'}}>
             <img src={cloudy} alt="Cloudy" />
-            <p>{data.name}</p>
-            <p>{data.age}</p>
+            <p>{props.name}</p>
+            <p>{props.age}</p>
         </div>
     )
 }
