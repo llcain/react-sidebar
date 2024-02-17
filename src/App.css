@@ -20,3 +20,16 @@
   margin-left: 60px;
   
 }
+
+.blog-container {
+  margin: 60px;
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}

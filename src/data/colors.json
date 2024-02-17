@@ -3,25 +3,29 @@
         "id": 1,
         "name": "Billy",
         "age": 47,
-        "color": "green"
+        "color": "green",
+        "imgUrl": "../images/processor.jpg"
     },
     {
         "id": 2,
         "name": "Susan",
         "age": 25,
-        "color": "blue"
+        "color": "blue",
+        "imgUrl": "../images/developer.jpg"
     },
     {
         "id": 3,
         "name": "Oreo",
         "age": 32,
-        "color": "pink"
+        "color": "pink",
+        "imgUrl": "../images/cloudy.jpg"
     },
     {
         "id": 4,
         "name": "Tony",
         "age": 19,
-        "color": "red"
+        "color": "red",
+        "imgUrl": "../images/carmel-cafe-website1.png"
     }
 
 ]

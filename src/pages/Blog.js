@@ -4,9 +4,10 @@ import data from "../data/colors.json";
 import Card from "../components/card";
 
 
+
 const Blog = () => {
     return ( 
-        <div style={{ margin: '40px'}}>
+        <div className="blog-container">
         
              <Header />
             {data.map((e) => {
