@@ -4,7 +4,7 @@
         "name": "Billy",
         "age": 47,
         "color": "green",
-        "imgUrl": "../images/processor.jpg"
+        "imgUrl": "/images/processor.jpg"
     },
     {
         "id": 2,

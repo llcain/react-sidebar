@@ -12,7 +12,7 @@ const Blog = () => {
              <Header />
             {data.map((e) => {
                 return (
-                    <Card name={e.name} age={e.age} />
+                    <Card imgUrl={e.imgUrl} name={e.name} age={e.age} />
                 )
             })}
              
