@@ -33,3 +33,10 @@
   height: 350px;
   object-fit: cover;
 }
+
+.form-container {
+  width: 50%;
+  height: 600px;
+  background-color: aqua;
+  margin: auto;
+}
