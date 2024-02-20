@@ -4,28 +4,28 @@
         "name": "Billy",
         "age": 47,
         "color": "green",
-        "imgUrl": "/images/processor.jpg"
+        "imgUrl": "./images/processor.jpg"
     },
     {
         "id": 2,
         "name": "Susan",
         "age": 25,
         "color": "blue",
-        "imgUrl": "../images/developer.jpg"
+        "imgUrl": "./images/developer.jpg"
     },
     {
         "id": 3,
         "name": "Oreo",
         "age": 32,
         "color": "pink",
-        "imgUrl": "../images/cloudy.jpg"
+        "imgUrl": "./images/cloudy.jpg"
     },
     {
         "id": 4,
         "name": "Tony",
         "age": 19,
         "color": "red",
-        "imgUrl": "../images/carmel-cafe-website1.png"
+        "imgUrl": "./images/carmel-cafe-website1.png"
     }
 
 ]
